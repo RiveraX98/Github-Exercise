@@ -1,0 +1,27 @@
+ul{
+    font-size: 25px;
+
+}
+body{
+    background-color: lemonchiffon;
+}
+input{
+    background-color: rgb(235, 231, 231);
+}
+ul :hover{
+    background-color: rgb(228, 227, 227);
+}
+.completed{
+    text-decoration: line-through;
+    color: grey;
+}
+.button{
+    position: relative;
+    left :10px;
+    
+}
+#deleteAll{
+    position:relative;
+    left: 130px;
+
+}

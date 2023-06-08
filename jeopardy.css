@@ -1,0 +1,68 @@
+
+
+body {
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+  }
+
+table{
+  max-height: 900px;
+  overflow: auto;
+}
+
+
+th{
+    background-color: #060ce9;
+    color :white;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 150px;
+    height: 60px;
+
+    
+}
+
+tbody{
+max-height: 620px;
+}
+
+
+td{
+    height:120px;
+    overflow: auto;
+    color:white;
+    text-align: center;
+    background-color:#060ce9;
+    cursor: pointer;
+
+}
+
+button{
+  position:relative;
+  right:20px;
+  bottom:200px;
+  padding:5px;
+  font-size: 15px;
+}
+
+
+.load {
+  position: absolute;
+  
+  border: 16px solid #f3f3f3; 
+  border-top: 16px solid #74119c; 
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  z-index: 1;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

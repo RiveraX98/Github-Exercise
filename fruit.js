@@ -23,9 +23,6 @@ function search() {
    
 }
 
-function searchHandler(e) {
-	// TODO
-}
 
 function showSuggestions(results) {
 $("ul").empty()
@@ -40,6 +37,7 @@ function useSuggestion(e) {
     let target = e.target
 	targetText = target.innerText
     input.value = targetText
+    $("ul").empty()
     
 }
 
