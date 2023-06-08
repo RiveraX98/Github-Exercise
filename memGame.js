@@ -22,9 +22,6 @@ const COLORS = [
   "purple"
 ];
 
-
-
-
 function shuffle(array) {
     let counter = array.length;
   
